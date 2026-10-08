@@ -3,56 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mélanie Lécuyer - Service Littéraire & Bêta-lecture</title>
-    <!-- Import de la police Alice depuis Google Fonts -->
+    <title>Mélanie Lécuyer - Bêta-lectrice / Correctrice professionnelle</title>
     <link href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo-container">
-            <!-- Remplacez logo.png par le nom de votre fichier logo sur GitHub -->
-            <img src="logo.png" alt="Logo Service Littéraire" class="logo">
+    <!-- Barre de navigation supérieure -->
+    <nav class="top-nav">
+        <a href="#services" class="active">Services</a>
+        <a href="#cgv">CGV</a>
+        <a href="#mentions">Mentions Légales</a>
+    </nav>
+
+    <!-- En-tête / Accueil -->
+    <header id="accueil">
+        <div class="contact-pill-top">
+            <a href="#contact">contact</a>
         </div>
-        <h1>Mélanie Lécuyer</h1>
-        <h2>Service Littéraire & Bêta-lecture</h2>
+        <div class="header-content">
+            <div class="logo-box">
+                <img src="logo.png" alt="Lécuyer Bêta Logo" class="logo-img">
+                <span class="siret">N° siret: 90988340700027</span>
+            </div>
+            <h1 class="main-title">Bêta-lectrice / correctrice professionnelle</h1>
+        </div>
     </header>
 
     <main>
-        <section class="intro">
-            <p>Vous avez un manuscrit en cours ou terminé et vous cherchez un regard extérieur bienveillant, constructif et professionnel ?</p>
-            <p>Je vous accompagne pour structurer votre récit, affiner vos personnages et donner toute sa force à votre plume avant publication.</p>
+        <!-- Section Introduction -->
+        <section class="intro-section">
+            <h2 class="section-heading">Une plume en quête de perfection ?</h2>
+            <p>Derrière chaque grand récit, il y a une vision et une quête incessante du mot juste. Vous avez donné vie à une histoire : mon rôle est de l'aider à révéler tout son potentiel.</p>
+            <p>En tant que bêta-lectrice professionnelle, je pose sur votre manuscrit un regard expert, objectif et bienveillant. J'analyse les rouages de votre texte pour captiver vos futurs lecteurs, tout en respectant scrupuleusement votre voix unique.</p>
+            <p>Que vous visiez l'édition traditionnelle ou l'auto-édition, offrons à votre œuvre la nuance et la force qu'elle mérite.</p>
+            <p class="signature">Mélanie. L</p>
         </section>
 
-        <section class="services">
-            <h3>Mes Prestations</h3>
-            <div class="card-grid">
-                <div class="service-card">
-                    <h4>Bêta-lecture approfondie</h4>
-                    <p>Analyse globale du manuscrit : rythme, cohérence de l'intrigue, psychologie des personnages et points d'amélioration.</p>
+        <!-- Section Services -->
+        <section id="services" class="services-section">
+            <h2 class="badge-title">Mes Services</h2>
+
+            <!-- Formule 1 -->
+            <div class="service-box">
+                <h3>Formule bêta-lecture</h3>
+                <p class="price">(0,002 € / mot)</p>
+                <h4>Dans mon rapport de lecture</h4>
+                <p>Un avis critique global de votre manuscrit</p>
+                <div class="features-list">
+                    <p>Suggestions personnalisées pour améliorer votre récit</p>
+                    <ul>
+                        <li>Analyse de l'Intrigue</li>
+                        <li>Les Personnages</li>
+                        <li>L'Univers et l'Ambiance</li>
+                        <li>Style et Plume (la Forme)</li>
+                        <li>Synthèse & conclusion</li>
+                    </ul>
                 </div>
-                <div class="service-card">
-                    <h4>Accompagnement sur mesure</h4>
-                    <p>Suivi personnalisé de votre projet d'écriture, conseils littéraires et retours d'étape.</p>
+            </div>
+
+            <!-- Formule 2 -->
+            <div class="service-box">
+                <h3>Formule Prestation de correction complète</h3>
+                <p class="price">(0,007 € / mot)</p>
+                <ul class="correction-list">
+                    <li>Orthographe, Conjugaison et Syntax</li>
+                    <li>Typographie et Ponctuation</li>
+                    <li>Chasse aux Répétitions et Incohérences</li>
+                    <li>Suppression des Tics de Langage</li>
+                    <li>Reformulations et Pistes d'Amélioration</li>
+                </ul>
+            </div>
+
+            <!-- Formule 3 -->
+            <div class="service-box">
+                <h3>Formule Immersion</h3>
+                <p class="price">(0,008 € / mot)</p>
+                <p class="immersion-text">bêta-lecture & Prestation de correction complète</p>
+            </div>
+
+            <!-- Bloc processus -->
+            <div class="process-box">
+                <p class="quote-box">"Une collaboration sereine, des engagements clairs."</p>
+                
+                <div class="step-card">
+                    <h3>Un devis</h3>
+                    <p>Vous m'indiquez le nombre de mots de votre projet (avec un court extrait si vous le souhaitez). Je vous adresse un devis gratuit sous 24h.</p>
+                </div>
+
+                <div class="step-card">
+                    <h3>Une facture</h3>
+                    <p>Dès le règlement de l'acompte de 30 % et la réception de votre manuscrit complet, le travail commence.</p>
+                </div>
+
+                <div class="step-card">
+                    <h3>La livraison</h3>
+                    <p>À la date convenue, je vous livre mon rapport de lecture et votre manuscrit corrigé. Le solde restant de la facture sera à régler à la réception de votre dossier.</p>
+                </div>
+
+                <div class="confidentiality-badge">
+                    <span>✓</span>
+                    <p>l'accord inclut une clause de confidentialité.</p>
                 </div>
             </div>
         </section>
 
-        <section class="contact">
-            <h3>Me contacter</h3>
-            <p>Envie d'échanger sur votre roman ? Retrouvez-moi sur mes réseaux ou contactez-moi directement :</p>
-            <p><strong>Téléphone / SMS :</strong> 07-69-76-45-22</p>
-            <p><strong>Email :</strong> melanieley42@gmail.com</p>
-            <div class="social-links">
-                <a href="https://www.facebook.com/melanielcy" target="_blank">Facebook</a>
-                <a href="https://www.instagram.com/melanielcy76" target="_blank">Instagram</a>
+        <!-- Section Contact -->
+        <section id="contact" class="contact-section">
+            <h2 class="badge-title">Contact</h2>
+            <div class="contact-links">
+                <a href="mailto:melanieley42@gmail.com" class="contact-btn email">E-mail</a>
+                <a href="https://wa.me/33769764522" target="_blank" class="contact-btn whatsapp">Whatsapp</a>
+                <a href="https://www.instagram.com/melanielcy76" target="_blank" class="contact-btn instagram">Instagram</a>
+                <a href="https://www.facebook.com/melanielcy" target="_blank" class="contact-btn facebook">Facebook</a>
+            </div>
+
+            <div class="contact-coords">
+                <p>melanieley42@gmail.com</p>
+                <p>SMS: 07.69.76.45.22</p>
+                <p class="closing-text">Prêt(e) à donner à votre manuscrit toutes les chances de réussir ? Envoyez-moi un message pour discuter de votre projet et obtenir un devis gratuit.</p>
+            </div>
+            
+            <div class="back-to-top">
+                <a href="#accueil" class="btn-accueil">Accueil &rarr;</a>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Mélanie Lécuyer - Service Littéraire | Siret : 10988340700027</p>
+        <p>&copy; 2026 Lécuyer. Tous droits réservés.</p>
+        <div class="footer-links">
+            <a href="#cgv">Conditions et assistance</a> | 
+            <a href="#mentions">Politique de confidentialité</a>
+        </div>
     </footer>
 
 </body>
