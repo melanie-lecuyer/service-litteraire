@@ -1,0 +1,132 @@
+:root {
+    --couleur-sable: #E4C6A2;
+    --couleur-marron: #643C33;
+    --couleur-fond: #FDFBF7;
+    --couleur-texte: #2C2C2C;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--couleur-fond);
+    color: var(--couleur-texte);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--couleur-sable);
+    color: var(--couleur-marron);
+    text-align: center;
+    padding: 2.5rem 1rem;
+    border-bottom: 4px solid var(--couleur-marron);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Alice', serif;
+}
+
+header h1 {
+    margin: 0.5rem 0 0.2rem 0;
+    font-size: 2.5rem;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.logo-container {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(100, 60, 51, 0.2);
+}
+
+.logo {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: white;
+    margin-bottom: 1.5rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-top: 3px solid var(--couleur-sable);
+}
+
+section h3 {
+    color: var(--couleur-marron);
+    margin-top: 0;
+    font-size: 1.5rem;
+    border-bottom: 2px solid var(--couleur-sable);
+    padding-bottom: 0.5rem;
+}
+
+.card-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.service-card {
+    flex: 1;
+    min-width: 250px;
+    background: #FAF6F0;
+    padding: 1.2rem;
+    border-radius: 6px;
+    border-left: 4px solid var(--couleur-marron);
+}
+
+.service-card h4 {
+    color: var(--couleur-marron);
+    margin-top: 0;
+}
+
+.contact p {
+    margin: 0.5rem 0;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    display: inline-block;
+    background-color: var(--couleur-marron);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 0.5rem;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.social-links a:hover {
+    background-color: #4A2C25;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    background-color: #F4EADF;
+    border-top: 1px solid #E4C6A2;
+}
